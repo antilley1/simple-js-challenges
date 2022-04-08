@@ -1,0 +1,86 @@
+.container-1, 
+.container-2, 
+.container-3, 
+.container-4, 
+.container-5{
+    border: 3px solid black;
+    padding: 10px;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.container-5 {
+    padding: 0px;
+}
+
+.flex-box-container-1, 
+.flex-box-container-2, 
+.flex-box-container-3, 
+.flex-box-container-4, 
+.flex-box-blackjack-row-1, 
+.flex-box-blackjack-row-2, 
+.flex-box-blackjack-row-3{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.flex-box-blackjack-row-1, .flex-box-blackjack-row-2{
+    background-color: darkgreen;
+    color: white;
+}
+
+.flex-box-blackjack-row-1, .flex-box-blackjack-row-2{
+    border: 1px solid black;
+}
+
+.flex-box-container-1 div {
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 350px;
+}
+
+.flex-box-container-2 img {
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+    margin: 10px;
+}
+
+.flex-box-container-3 img:hover {
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+.flex-box-blackjack-row-1 div {
+    flex: 1;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    height: 350px;
+}
+
+.flex-box-blackjack-row-2 button {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-box-blackjack-row-2 div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table, th, td{
+    padding: 5px;
+    border: 1px solid black;
+    ;
+}
+
+.flex-box-blackjack-row-3 table{
+    justify-content: center;
+}
+
+.flex-box-blackjack-row-1 img {
+    width: 10%;
+}
